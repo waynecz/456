@@ -1,9 +1,35 @@
 {{include '../control/meta'}}
-<body class="{{isIndex}} {{isPro}}">
-{{include '../control/killie'}}
-{{include '../control/header'}}
+<body>
 {{#ctx}}
-{{include '../control/footer'}}
 </body>
-<script src="js/bundle.js?t=1480931086882"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bundle.js?t=1501504438119"></script>
+<script src="js/jquery.pagepiling.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $('#pagepiling').pagepiling({
+      menu: null,
+      direction: 'vertical',
+      verticalCentered: true,
+      sectionsColor: [],
+      anchors: [],
+      scrollingSpeed: 700,
+      easing: 'swing',
+      loopBottom: false,
+      loopTop: false,
+      css3: true,
+      navigation: {
+        'textColor': '#fff',
+        'bulletsColor': '#fff',
+        'position': 'right'
+      },
+      normalScrollElements: null,
+      normalScrollElementTouchThreshold: 5,
+      touchSensitivity: 5,
+      keyboardScrolling: true,
+      sectionSelector: '.section',
+      animateAnchor: false
+    });
+  });
+</script>
 </html>

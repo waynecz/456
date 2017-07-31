@@ -5,7 +5,7 @@
 .pace {
     user-select: none;
     .pace-progress {
-        background: #29d;
+        background: #fff;
         position: fixed;
         z-index: 2000;
         top: 0;
@@ -19,7 +19,7 @@
         right: 0;
         width: 100px;
         height: 100%;
-        box-shadow: 0 0 10px #29d, 0 0 5px #29d;
+        box-shadow: 0 0 10px #29d, 0 0 5px #fff;
         opacity: 1.0;
         transform: rotate(3deg) translate(0px, -4px);
     }
@@ -32,8 +32,8 @@
         width: 14px;
         height: 14px;
         border: solid 2px transparent;
-        border-top-color: #29d;
-        border-left-color: #29d;
+        border-top-color: #fff;
+        border-left-color: #fff;
         border-radius: 10px;
         animation: pace-spinner 400ms linear infinite;
     }
