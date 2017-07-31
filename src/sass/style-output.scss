@@ -8,6 +8,11 @@
 
 $primary: #056444;
 
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
 .pp-tableCell {
   display: flex;
   justify-content: center;
