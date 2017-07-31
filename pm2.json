@@ -1,0 +1,13 @@
+{
+  "apps": [{
+    "name": "456",
+    "script": "bin/www",
+    "exec_mode": "cluster",
+    "instances": 1,
+    "max_memory_restart": "256M",
+    "autorestart": true,
+    "env": {
+      "NODE_ENV": "production"
+    }
+  }]
+}
